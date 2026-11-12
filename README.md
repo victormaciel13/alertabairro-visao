@@ -16,7 +16,7 @@ Disciplina: Applied Computer Vision · Professores: Arnaldo Viana e Paulo Rodrig
 
 ## Links
 
-- 🎥 **Vídeo de demonstração:** (inserir link do YouTube)
+- 🎥 **Vídeo de demonstração:** (https://youtu.be/3Zbm2bE0Azc)
 - 📄 **Relatório técnico:** [docs/AlertaBairro_Visao_Computacional.pdf](docs/AlertaBairro_Visao_Computacional.pdf)
 - 📓 **Notebook de treino:** [alertabairro_visao_treino_v1.ipynb](alertabairro_visao_treino_v1.ipynb)
 
