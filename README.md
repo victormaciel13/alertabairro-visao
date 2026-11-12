@@ -18,7 +18,7 @@ Disciplina: Applied Computer Vision · Professores: Arnaldo Viana e Paulo Rodrig
 
 - 🎥 **Vídeo de demonstração:** (inserir link do YouTube)
 - 📄 **Relatório técnico:** [docs/AlertaBairro_Visao_Computacional.pdf](docs/AlertaBairro_Visao_Computacional.pdf)
-- 📓 **Notebook de treino:** [notebooks/alertabairro_visao_treino_v1.ipynb](notebooks/alertabairro_visao_treino_v1.ipynb)
+- 📓 **Notebook de treino:** [alertabairro_visao_treino_v1.ipynb](alertabairro_visao_treino_v1.ipynb)
 
 ## O problema
 
@@ -81,7 +81,7 @@ Curvas de treino: [resultados/results.png](resultados/results.png) · Matriz de 
 
 ### Treino (Google Colab)
 
-1. Abra o [notebook](notebooks/alertabairro_visao_treino_v1.ipynb) no Colab e selecione **GPU T4**.
+1. Abra o [notebook](alertabairro_visao_treino_v1.ipynb) no Colab e selecione **GPU T4**.
 2. Em 🔑 **Secrets**, crie `ROBOFLOW_API_KEY` com a sua chave do Roboflow. A chave nunca fica no código.
 3. Na célula de configuração, preencha `WORKSPACE`, `PROJECT` e `VERSION` com a versão do dataset no seu workspace.
 4. Rode **Executar tudo**. O treino usa `seed=42` para ser reproduzível.
@@ -113,7 +113,7 @@ Exemplo de saída do `verificar_foto.py`:
 
 ```
 alertabairro-visao/
-├── notebooks/   notebook de treino com as saídas
+├── alertabairro_visao_treino_v1.ipynb   notebook de treino com as saídas
 ├── modelo/      pesos treinados (alertabairro_v1.pt)
 ├── scripts/     verificação de foto e demo em vídeo
 ├── resultados/  curvas, matriz de confusão e exemplos
